@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>welcome</h1>
+    <label for="showPass">Enter Password</label>
+    <input type="password" id="showPass">
+    <input type="checkbox" onclick="showPass()">Show Password
+    <br><br><br>
+    <hr>
+
+    <h1>Set Password</h1>
+    <label for="createPass">Create Password</label>
+    <input type="password" id="createPass"><br><br>
+    <label for="confirmPass">Confirm Password</label>
+    <input type="password" id="confirmPass">
+    
+    <input type="checkbox" onclick="showPasswords();">Show Password <br><br>
+    <button onclick="checkPass();">Login</button>
+    <p id="msg">No Input..</p>
+
+     <script src="script.js"></script>
+
+</body>
+</html>
